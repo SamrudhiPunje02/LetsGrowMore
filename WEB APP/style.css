@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 10;
+}
+
+body{
+  background-color: rgb(239, 252, 1);
+}
+
+h2{
+  margin-top: 16px;
+  font-size: 41px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.logo-text img{
+  height: 61px;
+  width: 160px;
+  position: absolute;
+  margin-top: -17px;
+  margin-left: -126px;
+  border-radius: 14px;
+}
+
+.logo-text a,
+.cta {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  color: rgb(34, 81, 210);
+  text-decoration: none;
+}
+
+.cta{
+  padding: 9px 25px;
+  margin-right: -126px;
+  background-color: rgb(15, 246, 3);
+  border: none;
+  border-radius: 21px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+
+}
+
+.cta:hover{
+  background-color: rgb(132, 2, 254);
+}
+
+.cards{
+  display: table;
+}
+
+.card{
+  font-family: 'Times New Roman', Times, serif;
+  width: 340px;
+  overflow: hidden;
+  background-color: rgb(36, 3, 251);
+  box-shadow: 0px 10px 15px 0px rgb(2, 210, 252);
+  display: inline-block;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.profile-image img {
+  z-index: 1;
+  width: 100px;
+  height: 120px;
+  position: relative;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid rgb(10, 9, 11) ;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.profile-image img:hover{
+  transform: scale(1.1);
+}
+
+.card-content h3,
+.card-content h2{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: rgb(252, 13, 13);
+  box-shadow: 0px 10px 15px 0px rgba(3, 11, 10, 0.989);
+}

@@ -1,0 +1,40 @@
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 52px;
+}
+
+input, select {
+	margin: 12px;
+	padding: 12px;
+	width: 370px;
+	border: 1px solid #b87a7a;
+	border-radius: 5px;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+button {
+	margin: 10px;
+	padding: 10px 20px;
+	background-color: #2e592f;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+body {
+    background-color: #f906a4;
+  }
+
+#output {
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #080707;
+	border-radius: 5px;
+}

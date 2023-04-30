@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<h1>REGISTRATION FORM</h1>
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Enter your name" required>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Enter your email" required>
+		<label for="gender">Gender</label>
+		<select id="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<label for="field">Field</label>
+		<select id="field">
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="javascript">JavaScript</option>
+		</select>
+		<label for="imageLink">Image Link</label>
+		<input type="text" id="imageLink" placeholder="Enter a link to your image">
+		<div>
+			<button type="button" onclick="submitForm()">Submit</button>
+			<button type="button" onclick="clearForm()">Clear</button>
+		</div>
+	</form>
+	
+	<div id="output"></div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
